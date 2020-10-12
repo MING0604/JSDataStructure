@@ -18,5 +18,5 @@ function fn(nameList,number){
         queue.shift()
     }
     // 4.获取剩下那个人
-    return queue[0]
+    return nameList.indexOf(queue[0])
 }
